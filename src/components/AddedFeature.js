@@ -1,4 +1,5 @@
 import React from 'react';
+// import { connect } from 'react-redux';
 
 const AddedFeature = props => {
   return (
@@ -9,5 +10,14 @@ const AddedFeature = props => {
     </li>
   );
 };
+
+//not needed b/c passed down from AddedFeatures
+// const mapStateToProps = state => {
+//   return {
+//     feature: state.feature
+//   }
+// }
+
+// export default connect(mapStateToProps, {})(AddedFeature);
 
 export default AddedFeature;
